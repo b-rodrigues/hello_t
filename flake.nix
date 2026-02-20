@@ -28,7 +28,7 @@
 
           installPhase = ''
             mkdir -p $out/lib/t/packages/my_package
-            cp -r src/* $out/lib/t/packages/my_package/
+            cp -r src $out/lib/t/packages/my_package/
           '';
 
           meta = {
