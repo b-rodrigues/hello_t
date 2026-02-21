@@ -1,10 +1,10 @@
-# my_package
+# hello_t
 
 A T package.
 
 ## Description
 
-A brief description of what my_package does.
+This is a simple "hello world" package for the T programming language.
 
 ## Installation
 
@@ -12,7 +12,7 @@ Add the following to the `[dependencies]` section of your `tproject.toml`:
 
 ```toml
 [dependencies]
-my_package = { git = "https://github.com/username/my_package", tag = "v0.1.0" }
+hello_t = { git = "https://github.com/username/hello_t", tag = "v0.0.3" }
 ```
 
 Then run `nix develop` to enter the environment with the package available.
@@ -20,7 +20,7 @@ Then run `nix develop` to enter the environment with the package available.
 ## Usage
 
 ```t
--- Example usage of my_package functions
+hello("world")
 ```
 
 ## Development
