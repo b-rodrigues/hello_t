@@ -4,7 +4,7 @@
   inputs = {
     nixpkgs.url = "github:rstats-on-nix/nixpkgs/2026-02-20";
     flake-utils.url = "github:numtide/flake-utils";
-    t-lang.url = "github:b-rodrigues/tlang/873f8894d6e5bbc3670d3562dc6150b1a151d22f";
+    t-lang.url = "github:b-rodrigues/tlang/c2bf3931891c5adca3f13ac57ed0bc51ad700587";
     # Package dependencies as flake inputs
     # Add each dependency from DESCRIPTION.toml as a flake input here
   };
